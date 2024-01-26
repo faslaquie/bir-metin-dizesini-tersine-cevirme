@@ -1,0 +1,20 @@
+var
+metin : string;
+begin
+Memo1.Lines.Clear;
+metin := 'Temel Programlama';
+Memo1.Lines.Add('METIN -->' + metin);
+Memo1.Lines.Add('-------------------');
+Memo1.Lines.Add('METIN '' in tersi -->' + ReverseString(metin));
+Memo1.Lines.Add('METIN''in karakter uzunluğu --> ' + IntToStr(Length(metin)));
+Memo1.Lines.Add('METIN''in ilk 3 karakteri--> ' + LeftStr(metin,3));
+Memo1.Lines.Add('METIN''in son 4 karakteri --> ' + RightStr(metin,4));
+Memo1.Lines.Add('METIN''in 7. karakterinden itibaren 4 karakter --> ' + MidStr(metin,7,4));
+
+
+
+
+
+end;
+
+end.
